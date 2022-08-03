@@ -13,40 +13,47 @@
 <body>
     <main class="container d-flex  gap-5 h-100">
         <section class="py-4 w-50 d-flex flex-column gap-4">
-            <h1>Setting</h1>
             <div class="">
-                <label for="margin">margin (pixel)</label>
-                <input type="range" name="" id="margin" class="form-range" value="25" min="0" max="50">
-                <div class="d-flex justify-content-between">
-                    <span>0</span>
-                    <span id="margin-value">25</span>
-                    <span>50</span>
+                <h1>Box 1</h1>
+                <div class="">
+                    <label for="margin">margin (pixel)</label>
+                    <input type="range" name="" id="margin" class="form-range" value="25" min="0" max="50">
+                    <div class="d-flex justify-content-between">
+                        <span>0</span>
+                        <span id="margin-value">25</span>
+                        <span>50</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="">
-                <label for="padding">padding (pixel)</label>
-                <input type="range" name="" id="padding" class="form-range" value="25" min="0" max="50">
-                <div class="d-flex justify-content-between">
-                    <span>0</span>
-                    <span id="padding-value">25</span>
-                    <span>50</span>
+    
+                <div class="">
+                    <label for="padding">padding (pixel)</label>
+                    <input type="range" name="" id="padding" class="form-range" value="25" min="0" max="50">
+                    <div class="d-flex justify-content-between">
+                        <span>0</span>
+                        <span id="padding-value">25</span>
+                        <span>50</span>
+                    </div>
                 </div>
-            </div>
-            <div class="">
-                <label for="border">border (pixel)</label>
-                <input type="range" name="" id="border" class="form-range" value="10" min="0" max="20">
-                <div class="d-flex justify-content-between">
-                    <span>0</span>
-                    <span id="border-value">10</span>
-                    <span>20</span>
+                <div class="">
+                    <label for="border">border (pixel)</label>
+                    <input type="range" name="" id="border" class="form-range" value="10" min="0" max="20">
+                    <div class="d-flex justify-content-between">
+                        <span>0</span>
+                        <span id="border-value">10</span>
+                        <span>20</span>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="border border-5 border-danger my-4 w-50">
+
+        <section class="border border-5 border-danger my-4 w-50 d-flex flex-column ">
             <div id="example-box" style="margin: 25px; padding: 25px; border-style: solid; border-width: 5px;">
-                Content
+                Box 1
             </div>
+            <div style="padding: 10px; border-style: solid; border-width: 5px;">
+                Box 2
+            </div>
+
         </section>
         
     </main>
